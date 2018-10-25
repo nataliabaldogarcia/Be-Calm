@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Be calm</title>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+	html{
+		font-size: 40px;
+		margin-left: 100px;
+    }
+	    #title{
+	    	font-family: 'Permanent Marker', cursive;
+	    	font-size: 2em;
+	    	margin-top: 10%;
+	    	margin-bottom: 20px;
+	    }
+	    #hangul{
+	    	display: none;
+	    }
+	    #title:hover + #hangul{
+	    	display: block;
+	    	font-family: 'Nanum Brush Script', cursive;
+	    	font-size: 3em;
+	    	float: right;
+	    	right: 200px;
+	    	position: relative;
+	    	top: -100px;
+	    }
+		#p1{
+		font-family: 'Caveat', cursive;
+		}
+		#spring{
+			color: gold;
+		}
+		#spring:hover{ 
+			color: lemonchiffon;
+		}
+		#p2{
+			font-family: 'Caveat', cursive;
+		}
+		#p3{
+			font-family: 'Caveat', cursive;
+			margin-top: 20px;
+		}
+		#bloom:hover{
+			color: lemonchiffon;
+		}
+		#search{
+			color: gold;
+		}
+		#search:hover{
+			color: lemonchiffon;
+		}
+		#path{
+			color: gold;
+		}
+		#path:hover{
+			color: lemonchiffon;
+		}
+		#bloomgif{
+			position: absolute;
+			width: 500px;
+			bottom: 55px;
+			top: 25%;
+			right: 100px;
+            display: none;
+        }
+        #bloom{
+        	color: gold;
+        }
+        #bloom:hover + #bloomgif{
+            display: block;
+        }
+        #pathgif{
+        	position: absolute;
+			width: 500px;
+			top: 20%;
+			right: 100px;
+            display: none;
+        }
+        #path:hover + #pathgif{
+        	display: block;
+        }
+        #searchgif{
+        	position: absolute;
+			width: 500px;
+			top: 30%;
+			right: 100px;
+            display: none;
+        }
+        #search:hover + #searchgif{
+        	display: block;
+        }
+          #springif{
+        	position: absolute;
+			width: 500px;
+			top: 25%;
+			right: 100px;
+            display: none;
+        }
+        #spring:hover + #springif{
+        	display: block;
+        }
+	</style>
+</head>
+<body>
+	<p id="title">Be calm</p>
+	<div id='hangul'>
+		<p>덤덤해지네</p>
+		<p>Ahn Hyejin</p>
+	</div>
+	<p id="p1"><span id="spring">Spring</span><img id=springif src="images/spring.gif"> must have realised it as well,</p>
+	<p id="p2">it is making the flowers <span id="bloom">bloom</span><img id=bloomgif src="images/bloom.gif">.</p>
+	<p id="p3">There I go on the <span id="search">search</span><img id=searchgif src="images/search.gif"> for my life's <span id="path">path</span><img id=pathgif src="images/path.gif"> again.</p>
+		
+	
+</body>
+</html>
